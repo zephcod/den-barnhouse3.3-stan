@@ -1,571 +1,571 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node6" appversion="6.1.11" apprev="18043">
+<tour start="node6" apprev="18043" appversion="6.1.11">
   <panorama id="node6" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="2/4/2024 7:06 PM" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Foyer" nodeid="node6" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-10.76" pan="-111.62" description="" id="03" target="43.3/-1.4/70.0" skinid="ht_node" title="Great Room" url="{node9}"/>
-      <hotspot tilt="-10.24" pan="-72.3" description="" id="2" target="-85.6/-1.1/70.0" skinid="ht_node" title="Kitchen" url="{node7}"/>
-      <hotspot tilt="-16.44" pan="-254.32" description="" id="13" target="93.8/-9.6/70.0" skinid="ht_node" title="Hallway 2" url="{node17}"/>
-      <hotspot tilt="-23.75" pan="-177.01" description="" id="15" target="173.1/-6.8/70.0" skinid="ht_node" title="Office 1" url="{node19}"/>
-      <hotspot tilt="-7.23" pan="-93.54" description="" id="06" target="-88.6/-0.6/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
+    <userdata datetime="2/4/2024 7:06 PM" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node6" customnodeid="" tags="pano" title="Foyer" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="03" description="" url="{node9}" pan="-111.62" tilt="-10.76" skinid="ht_node" title="Great Room" target="43.3/-1.4/70.0"/>
+      <hotspot id="2" description="" url="{node7}" pan="-72.3" tilt="-10.24" skinid="ht_node" title="Kitchen" target="-85.6/-1.1/70.0"/>
+      <hotspot id="13" description="" url="{node17}" pan="-254.32" tilt="-16.44" skinid="ht_node" title="Hallway 2" target="93.8/-9.6/70.0"/>
+      <hotspot id="15" description="" url="{node19}" pan="-177.01" tilt="-23.75" skinid="ht_node" title="Office 1" target="173.1/-6.8/70.0"/>
+      <hotspot id="06" description="" url="{node10}" pan="-93.54" tilt="-7.23" skinid="ht_node" title="Hallway 1" target="-88.6/-0.6/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node7" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="2/4/2024 7:07 PM" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Kitchen" nodeid="node7" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-10.61" pan="-110.51" description="" id="6" target="89.2/-0.3/70.0" skinid="ht_node" title="Hall" url="{node10}"/>
-      <hotspot tilt="-15.56" pan="-177.49" description="" id="03" target="-179.2/-1.7/70.0" skinid="ht_node" title="Open LD Room" url="{node9}"/>
-      <hotspot tilt="-7.82" pan="-252.41" description="" id="1" target="-127.6/0.4/70.0" skinid="ht_node" title="Foyer" url="{node6}"/>
+    <userdata datetime="2/4/2024 7:07 PM" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node7" customnodeid="" tags="pano" title="Kitchen" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="6" description="" url="{node10}" pan="-110.51" tilt="-10.61" skinid="ht_node" title="Hall" target="89.2/-0.3/70.0"/>
+      <hotspot id="03" description="" url="{node9}" pan="-177.49" tilt="-15.56" skinid="ht_node" title="Open LD Room" target="-179.2/-1.7/70.0"/>
+      <hotspot id="1" description="" url="{node6}" pan="-252.41" tilt="-7.82" skinid="ht_node" title="Foyer" target="-127.6/0.4/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Great Room" nodeid="node9" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-8.1" pan="-71.25" description="" id="06" target="-43.1/-4.7/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
-      <hotspot tilt="-4.94" pan="-299.06" description="" id="1" target="43.4/-1.6/70.0" skinid="ht_node" title="Foyer" url="{node6}"/>
-      <hotspot tilt="-8.59" pan="-360.01" description="" id="2" target="-3.0/-0.0/70.0" skinid="ht_node" title="Kitchen" url="{node7}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node9" customnodeid="" tags="Pano2VR6" title="Great Room" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="06" description="" url="{node10}" pan="-71.25" tilt="-8.1" skinid="ht_node" title="Hallway 1" target="-43.1/-4.7/70.0"/>
+      <hotspot id="1" description="" url="{node6}" pan="-299.06" tilt="-4.94" skinid="ht_node" title="Foyer" target="43.4/-1.6/70.0"/>
+      <hotspot id="2" description="" url="{node7}" pan="-360.01" tilt="-8.59" skinid="ht_node" title="Kitchen" target="-3.0/-0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Hallway 1" nodeid="node10" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-3.67" pan="-274.21" description="" id="1" target="92.2/-1.9/70.0" skinid="ht_node" title="Foyer" url="{node6}"/>
-      <hotspot tilt="-26.59" pan="-335.67" description="" id="17" target="124.9/2.0/70.0" skinid="ht_node" title="Stair" url="{node21}"/>
-      <hotspot tilt="-7.21" pan="-254.63" description="" id="5" target="86.9/0.4/70.0" skinid="ht_node" title="Great Room" url="{node9}"/>
-      <hotspot tilt="-18.78" pan="-206.05" description="" id="07" target="-178.4/-2.0/70.0" skinid="ht_node" title="Bedroom 2" url="{node18}"/>
-      <hotspot tilt="-25.86" pan="-23.55" description="" id="16" target="0.0/0.0/70.0" skinid="ht_node" title="Laundry" url="{node20}"/>
-      <hotspot tilt="-17.99" pan="-89.03" description="" id="06B" target="-89.2/-3.6/70.0" skinid="ht_node" title="Hallway 1B" url="{node26}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node10" customnodeid="" tags="Pano2VR6" title="Hallway 1" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="1" description="" url="{node6}" pan="-274.21" tilt="-3.67" skinid="ht_node" title="Foyer" target="92.2/-1.9/70.0"/>
+      <hotspot id="17" description="" url="{node21}" pan="-335.67" tilt="-26.59" skinid="ht_node" title="Stair" target="124.9/2.0/70.0"/>
+      <hotspot id="5" description="" url="{node9}" pan="-254.63" tilt="-7.21" skinid="ht_node" title="Great Room" target="86.9/0.4/70.0"/>
+      <hotspot id="07" description="" url="{node18}" pan="-206.05" tilt="-18.78" skinid="ht_node" title="Bedroom 2" target="-178.4/-2.0/70.0"/>
+      <hotspot id="16" description="" url="{node20}" pan="-23.55" tilt="-25.86" skinid="ht_node" title="Laundry" target="0.0/0.0/70.0"/>
+      <hotspot id="06B" description="" url="{node26}" pan="-89.03" tilt="-17.99" skinid="ht_node" title="Hallway 1B" target="-89.2/-3.6/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node26" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Hallway 1B" nodeid="node26" source="" tags="v2" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-19.36" pan="-269.86" description="" id="06" target="91.0/-2.4/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
-      <hotspot tilt="-24.32" pan="-170.02" description="" id="07" target="-162.5/-2.6/70.0" skinid="ht_node" title="Bedroom 1" url="{node11}"/>
-      <hotspot tilt="-17.18" pan="-67.1" description="" id="09" target="-27.1/0.7/70.0" skinid="ht_node" title="Office 2" url="{node13}"/>
-      <hotspot tilt="-27.82" pan="-352.65" description="" id="08" target="-4.7/0.8/70.0" skinid="ht_node" title="Bathroom 1" url="{node12}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node26" customnodeid="" tags="v2" title="Hallway 1B" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="06" description="" url="{node10}" pan="-269.86" tilt="-19.36" skinid="ht_node" title="Hallway 1" target="91.0/-2.4/70.0"/>
+      <hotspot id="07" description="" url="{node11}" pan="-170.02" tilt="-24.32" skinid="ht_node" title="Bedroom 1" target="-162.5/-2.6/70.0"/>
+      <hotspot id="09" description="" url="{node13}" pan="-67.1" tilt="-17.18" skinid="ht_node" title="Office 2" target="-27.1/0.7/70.0"/>
+      <hotspot id="08" description="" url="{node12}" pan="-352.65" tilt="-27.82" skinid="ht_node" title="Bathroom 1" target="-4.7/0.8/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node20" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Laundry" nodeid="node20" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-30.74" pan="-186.6" description="" id="06" target="135.1/-1.0/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node20" customnodeid="" tags="pano" title="Laundry" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="06" description="" url="{node10}" pan="-186.6" tilt="-30.74" skinid="ht_node" title="Hallway 1" target="135.1/-1.0/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node21" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Stair" nodeid="node21" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="18.83" pan="-178.21" description="" id="06" target="145.4/1.0/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
-      <hotspot tilt="-22.61" pan="-269.2" description="" id="18" target="98.5/-1.0/70.0" skinid="ht_node" title="Basement" url="{node22}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node21" customnodeid="" tags="pano" title="Stair" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="06" description="" url="{node10}" pan="-178.21" tilt="18.83" skinid="ht_node" title="Hallway 1" target="145.4/1.0/70.0"/>
+      <hotspot id="18" description="" url="{node22}" pan="-269.2" tilt="-22.61" skinid="ht_node" title="Basement" target="98.5/-1.0/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node18" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Bedroom 2" nodeid="node18" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-28.32" pan="-2.3" description="" id="06" target="10.3/0.9/70.0" skinid="ht_node" title="Hallway 1" url="{node10}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node18" customnodeid="" tags="pano" title="Bedroom 2" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="06" description="" url="{node10}" pan="-2.3" tilt="-28.32" skinid="ht_node" title="Hallway 1" target="10.3/0.9/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Bedroom 1" nodeid="node11" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-21.04" pan="-297.67" description="" id="6" target="-67.5/-1.0/70.0" skinid="ht_node" title="Master Bedroom" url="{node10}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node11" customnodeid="" tags="Pano2VR6" title="Bedroom 1" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="6" description="" url="{node26}" pan="-3.34" tilt="-23.66" skinid="ht_node" title="Hallway 1B" target="2.0/-3.2/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Bathroom 1" nodeid="node12" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-24.15" pan="-199.03" description="" id="5" target="-55.1/-2.1/70.0" skinid="ht_node" title="Hall" url="{node9}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node12" customnodeid="" tags="Pano2VR6" title="Bathroom 1" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="5" description="" url="{node26}" pan="-199.03" tilt="-24.15" skinid="ht_node" title="Hallway 1B" target="179.9/-0.4/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node13" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Office 2" nodeid="node13" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-28.92" pan="-220.27" description="" id="5" target="65.6/-9.4/70.0" skinid="ht_node" title="Hall" url="{node9}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node13" customnodeid="" tags="Pano2VR6" title="Office 2" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="5" description="" url="{node26}" pan="-220.27" tilt="-28.92" skinid="ht_node" title="Hallway 1B" target="-170.5/-3.1/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node17" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Hallway 2" nodeid="node17" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-30.34" pan="-201.91" description="" id="10" target="119.2/-2.3/70.0" skinid="ht_node" title="Primary Bedroom" url="{node14}"/>
-      <hotspot tilt="-27.74" pan="-274.68" description="" id="11" target="85.8/-0.2/70.0" skinid="ht_node" title="Primary Bathroom" url="{node15}"/>
-      <hotspot tilt="-32.56" pan="-341.45" description="" id="12" target="" skinid="ht_node" title="Walkin Closet" url="{node16}"/>
-      <hotspot tilt="-27.12" pan="-86.51" description="" id="01" target="-96.0/1.9/70.0" skinid="ht_node" title="Foyer" url="{node6}"/>
-      <hotspot tilt="-10.6" pan="-92.89" description="" id="05" target="-83.6/-1.0/70.0" skinid="ht_node" title="LDK" url="{node9}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node17" customnodeid="" tags="pano" title="Hallway 2" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="10" description="" url="{node14}" pan="-201.91" tilt="-30.34" skinid="ht_node" title="Primary Bedroom" target="119.2/-2.3/70.0"/>
+      <hotspot id="11" description="" url="{node15}" pan="-274.68" tilt="-27.74" skinid="ht_node" title="Primary Bathroom" target="85.8/-0.2/70.0"/>
+      <hotspot id="12" description="" url="{node16}" pan="-341.45" tilt="-32.56" skinid="ht_node" title="Walkin Closet" target=""/>
+      <hotspot id="01" description="" url="{node6}" pan="-86.51" tilt="-27.12" skinid="ht_node" title="Foyer" target="-96.0/1.9/70.0"/>
+      <hotspot id="05" description="" url="{node9}" pan="-92.89" tilt="-10.6" skinid="ht_node" title="LDK" target="-83.6/-1.0/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node14" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Primary Bedroom" nodeid="node14" source="" tags="Pano2VR6" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-14.26" pan="-337.03" description="" id="5" target="17.6/-0.7/70.0" skinid="ht_node" title="Hallway 2" url="{node17}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node14" customnodeid="" tags="Pano2VR6" title="Primary Bedroom" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="5" description="" url="{node17}" pan="-337.03" tilt="-14.26" skinid="ht_node" title="Hallway 2" target="17.6/-0.7/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node15" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Primary Bathroom" nodeid="node15" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-27.15" pan="-102.1" description="" id="13" target="-89.6/-1.5/70.0" skinid="ht_node" title="Hallway 2" url="{node17}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node15" customnodeid="" tags="pano" title="Primary Bathroom" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="13" description="" url="{node17}" pan="-102.1" tilt="-27.15" skinid="ht_node" title="Hallway 2" target="-89.6/-1.5/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node16" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Walkin Closet" nodeid="node16" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-29.98" pan="-199.01" description="" id="13" target="151.7/-7.6/70.0" skinid="ht_node" title="Hallway 2" url="{node17}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node16" customnodeid="" tags="pano" title="Walkin Closet" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="13" description="" url="{node17}" pan="-199.16" tilt="-36.88" skinid="ht_node" title="Hallway 2" target="151.7/-7.6/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node19" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Office 1" nodeid="node19" source="" tags="pano" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-28.75" pan="-355.58" description="" id="01" target="0.0/0.0/70.0" skinid="ht_node" title="Foyer" url="{node6}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node19" customnodeid="" tags="pano" title="Office 1" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="01" description="" url="{node6}" pan="-355.58" tilt="-28.75" skinid="ht_node" title="Foyer" target="0.0/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node22" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Basement" nodeid="node22" source="" tags="v2" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="1.43" pan="-48.33" description="" id="17" target="-131.4/-0.3/70.0" skinid="ht_node" title="Stair" url="{node21}"/>
-      <hotspot tilt="-1.4" pan="-301.09" description="" id="21" target="90.3/4.2/70.0" skinid="ht_node" title="Utility" url="{node25}"/>
-      <hotspot tilt="-1.18" pan="-85.83" description="" id="19" target="-86.7/-0.8/70.0" skinid="ht_node" title="Bedroom 3" url="{node23}"/>
-      <hotspot tilt="-1.3" pan="-80.13" description="" id="20" target="-72.2/-0.3/70.0" skinid="ht_node" title="Bathroom 2" url="{node24}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node22" customnodeid="" tags="v2" title="Basement" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="17" description="" url="{node21}" pan="-48.33" tilt="1.43" skinid="ht_node" title="Stair" target="-131.4/-0.3/70.0"/>
+      <hotspot id="21" description="" url="{node25}" pan="-301.09" tilt="-1.4" skinid="ht_node" title="Utility" target="90.3/4.2/70.0"/>
+      <hotspot id="19" description="" url="{node23}" pan="-85.83" tilt="-1.18" skinid="ht_node" title="Bedroom 3" target="-86.7/-0.8/70.0"/>
+      <hotspot id="20" description="" url="{node24}" pan="-80.13" tilt="-1.3" skinid="ht_node" title="Bathroom 2" target="-72.2/-0.3/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node23" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Bedroom 3" nodeid="node23" source="" tags="v2" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-8.38" pan="-259.02" description="" id="18" target="113.3/-4.2/70.0" skinid="ht_node" title="Basement" url="{node22}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node23" customnodeid="" tags="v2" title="Bedroom 3" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="18" description="" url="{node22}" pan="-259.02" tilt="-8.38" skinid="ht_node" title="Basement" target="113.3/-4.2/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node24" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Bathroom 2" nodeid="node24" source="" tags="v2" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-14.36" pan="-168.79" description="" id="18" target="-158.5/-0.9/70.0" skinid="ht_node" title="Basement" url="{node22}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node24" customnodeid="" tags="v2" title="Bathroom 2" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="18" description="" url="{node22}" pan="-168.79" tilt="-14.36" skinid="ht_node" title="Basement" target="-158.5/-0.9/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <panorama id="node25" hideabout="1">
-    <input leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelbiashidpi="1.000" levelingroll="0" width="1500" overlap="1" levelingpitch="0">
-      <level predecode="0" height="1500" width="1500" preload="0"/>
-      <level predecode="0" height="750" width="750" preload="0"/>
-      <level predecode="1" height="375" width="375" preload="1"/>
+    <input width="1500" levelingroll="0" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1500" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" levelbias="0.400">
+      <level width="1500" height="1500" preload="0" predecode="0"/>
+      <level width="750" height="750" preload="0" predecode="0"/>
+      <level width="375" height="375" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovfisheye="360" scaletofit="1" pan="360" fov="120" fovstereographic="270"/>
+      <start projection="4" fov="70" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fov="120" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="Utility" nodeid="node25" source="" tags="v2" longitude="" copyright="DENOUTDOORS" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="-7.86" pan="-31.94" description="" id="18" target="-78.8/1.3/70.0" skinid="ht_node" title="Basement" url="{node22}"/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="node25" customnodeid="" tags="v2" title="Utility" latitude="" heading="0"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" border="1" background="1" backgroundalpha="1" wordwrap="1" textcolor="0x000000" height="20" textalpha="1" borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="18" description="" url="{node22}" pan="-31.94" tilt="-7.86" skinid="ht_node" title="Basement" target="-78.8/1.3/70.0"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="3.5" zoomout="0" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" enabled="1" zoomoutpause="1" zoomafteroutfov="20" softedge="0" zoomin="6" blendtime="1" type="crossdissolve"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" speedwheel="1" lockedmouse="0" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" hideabout="1" invertwheel="0" simulatemass="1" lockedkeyboard="0">
-      <menulink text="DEN OUTDOORS" url="https://www.denoutdoors.com"/>
+    <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="6" zoomfov="20" blendtime="1" zoomafterinfov="90" zoomout="0" zoomspeed="3.5" blendcolor="0x000000" type="crossdissolve" enabled="1" softedge="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1" lockedmouse="0" lockedwheel="0" hideabout="1" rubberband="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0">
+      <menulink url="https://www.denoutdoors.com" text="DEN OUTDOORS"/>
     </control>
   </panorama>
   <masternode>
-    <userdata customnodeid="" datetime="" description="STAN PRINSEN BARNHOUSE" comment="" author="DEN" latitude="" heading="0" title="BARNHOUSE 3.3" nodeid="master" source="" tags="" longitude="" copyright="DENOUTDOORS" info=""/>
+    <userdata datetime="" comment="" longitude="" copyright="DENOUTDOORS" description="STAN PRINSEN BARNHOUSE" info="" author="DEN" source="" nodeid="master" customnodeid="" tags="" title="BARNHOUSE 3.3" latitude="" heading="0"/>
   </masternode>
-  <map transparent="0" height="0" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan01" zoomlevels="1" tileformat="jpg" floorplannorth="220" title="Bathroom Floor Plan" width="0" type="file"/>
+  <map id="FloorPlan01" transparent="0" width="0" bgcolor="rgba(255, 255, 255, 1)" height="0" type="file" tileformat="jpg" title="Bathroom Floor Plan" zoomlevels="1" floorplannorth="220"/>
 </tour>
